@@ -29,5 +29,13 @@ public class HashMap{
         List<String> flaylist = nestested.stream().flatMap(Collection::stream)
                 .collect(Collectors.toList());
         System.out.println(flaylist);
+        int [] arr = {1,5,7,9,3};
+        int max = 0;
+        for(int i = 0; i < arr.length; i++){
+            if(max < arr[i]){
+              max=arr[1];
+            }
+            System.out.println(arr);
+        }
     }
     }
