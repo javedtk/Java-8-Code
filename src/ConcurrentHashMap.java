@@ -31,6 +31,8 @@ public class ConcurrentHashMap {
         new Thread(t2).start();
         new Thread(t).start();
 
+        new Thread(t2).start();
+        new Thread(t).start();
 
     }
 }
